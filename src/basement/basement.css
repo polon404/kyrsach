@@ -1,0 +1,46 @@
+.basement {
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+  }
+  
+  .bs {
+    color: aliceblue;
+    flex-basis: 40%;
+    display: flex;
+   background: linear-gradient(to right, #000,#fff)
+    
+  }
+  
+  .bs jl {
+    flex-basis: 40%;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    
+  }
+  .bs jk {
+    flex-basis: 60%;
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    color: red;
+  }
+  
+  .libs {
+    margin-bottom: 30px;
+  }
+  
+  
+  
+  .n {
+    text-align: left;
+    color: #fff;
+  }
+  
+  .z {
+    text-align: right;
+    
+  }

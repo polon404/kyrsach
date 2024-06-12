@@ -1,0 +1,40 @@
+.gallery {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .carousel-inner {
+    overflow: hidden;
+    width: 200px; /* adjust to your desired width */
+    height: 200px; /* adjust to your desired height */
+  }
+  
+  .carousel-item {
+    display: none;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .carousel-item.active {
+    display: block;
+  }
+  
+  .carousel-prev, .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .carousel-prev {
+    left: 10px;
+  }
+  
+  .carousel-next {
+    right: 10px;
+  }
